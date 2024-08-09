@@ -6,8 +6,6 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-
-
 name: Java CI with Maven
 
 on:
@@ -39,11 +37,11 @@ jobs:
 
       - name: Build with Maven
         run: |
-          mvn clean package -B -DskipTests
+          mvn clean package -B -DskipTests -Dmaven.compiler.source=1.8 -Dmaven.compiler.target=1.8
 
       - name: Run TestNG tests
         run: |
-          mvn test -B
+          mvn test -B -Dmaven.compiler.source=1.8 -Dmaven.compiler.target=1.8
 
       - name: Upload test report
         uses: actions/upload-artifact@v2

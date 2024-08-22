@@ -3,7 +3,7 @@
 </p>
 <p align="center">
     <h1 align="center">SDET_CERT</h1>
-    <h1 align="center">🤖🧠🧑‍💻🖥️⚙️🦾👾🤖🚀🧑‍🚀🧑🏽‍🚀🛰🌙🌌🌕☄📡🧑‍💻🔮☕</h1>
+    <h1 align="center">🤖🧠🧑‍💻🖥️⚙️🦾👾🤖🚀🧑‍🧑🏽‍🚀🛰🌙🌌🌕☄📡🧑‍💻🔮☕</h1>
 </p>
 <p align="center">
     <em>HTTP error 401 for prompt `slogan`</em>
